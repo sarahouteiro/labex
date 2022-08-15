@@ -1,18 +1,19 @@
 <h1 align="center">
-LabeNinjas<br/><br/>
-<img src="https://user-images.githubusercontent.com/45954874/176879447-d1a929cb-e062-4bd0-8a19-64a2527ac031.png"/> 
+LabeX<br/><br/>
+
+<img src="https://user-images.githubusercontent.com/104728985/184734075-2d2764e1-7fe1-4741-878d-072788b9640f.png"/> 
 </h1>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/future4code/Freire-labe-ninja4">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/sarahouteiro/labex">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/future4code/Freire-labe-ninja4">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/sarahouteiro/labex">
 
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/future4code/Freire-labe-ninja4">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sarahouteiro/labex">
 
-  <img alt="Repository issues" src="https://img.shields.io/github/issues/future4code/Freire-labe-ninja4">
+  <img alt="Repository issues" src="https://img.shields.io/github/issues/sarahouteiro/labex">
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">w
 </p>
 
 <p align="center">
@@ -34,15 +35,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <a id="Projeto"></a>
 ## 💻 Projeto
-  Este projeto foi desenvolvido com base no curso  *__Web Full Stack Integral__* da [Labenu](https://www.labenu.com.br/). Esta aplicação consiste em uma plataforma de Marketplace baseada no site GetNinjas. O projeto possui duas áreas principais separadas no site (Prestador de serviço) e (Contratante), busca e listagem de serviços, página de detalhes de cada serviço, e carrinho onde é possível adicionar e remover propostas para contratá-las.
-## Link surge - [Labe-ninjas.surge.sh](http://Labe-ninjas.surge.sh)
+  Este projeto foi desenvolvido com base no curso  *__Web Full Stack Integral__* da [Labenu](https://www.labenu.com.br/). Esta aplicação consiste em uma plataforma de cadastro de viagens entre mundos, sendo possível se candidatar para diferentes aventuras interestelares. O projeto possui duas áreas principais separadas no site (Área de viagens) e (Área do Admin), listagem de viagens, página de detalhes de cada viagem, página de candidatura, lista de candidatos aprovados e adicionar e remover viagens.
+  <p>Credenciais:</p>
+  <p>Login: sarahdinizouteiro@gmail.com</p>
+  <p>Senha: 123456</p>
+## Link - https://labex-beta.vercel.app/
   
 <a id="Instalação"></a>
 ## 🥷 Instalação
 
 1. Faça o dowload e extração do projeto;
 2. Abra um terminal ([Git Bash](https://git-scm.com/book/pt-pt/v2/Appendix-A%3A-Git-em-Outros-Ambientes-Git-in-Bash) é o recomendado, pois é colorido);
-3. Navegue até a pasta do projeto pelo seu terminal;
+3. Navegue até a pasta do projeto no vscode;
 4. Execute, dentro dela, o comando **npm install**;
 5. Quando acabar, rode o comando **npm run start**;
 6. Verifique se uma janela do seu navegador abriu, mostrando a página do projeto.
