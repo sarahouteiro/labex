@@ -1,7 +1,8 @@
 <h1 align="center">
 LabeX<br/><br/>
 
-<img src="https://user-images.githubusercontent.com/104728985/184734075-2d2764e1-7fe1-4741-878d-072788b9640f.png"/> 
+
+<img src="https://user-images.githubusercontent.com/104728985/184880785-1a909dda-0c2c-4517-84ee-be1deda33e33.png"/> 
 </h1>
 
 <p align="center">
@@ -13,7 +14,7 @@ LabeX<br/><br/>
 
   <img alt="Repository issues" src="https://img.shields.io/github/issues/sarahouteiro/labex">
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">w
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
 <p align="center">
@@ -42,7 +43,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## Link - https://labex-beta.vercel.app/
   
 <a id="Instalação"></a>
-## 🥷 Instalação
+## 🪐 Instalação
 
 1. Faça o dowload e extração do projeto;
 2. Abra um terminal ([Git Bash](https://git-scm.com/book/pt-pt/v2/Appendix-A%3A-Git-em-Outros-Ambientes-Git-in-Bash) é o recomendado, pois é colorido);
@@ -54,13 +55,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <a id="Imagens"></a>
 ## 🖼️ Imagens
 
-| Tela Inicial  | Cadastro de Serviço | Busca de Serviços | 
+| Tela Inicial  | Página de Viagens | Candidatar-se para Viagem | 
 |---|---|---|
-| ![Tela Inicial](https://user-images.githubusercontent.com/45954874/176905184-0b59c220-b853-42c5-b0dc-4dc9ede6733a.jpg) | ![Cadastro de Serviço](https://user-images.githubusercontent.com/45954874/176949715-bb573766-df09-49ad-9526-407fd95915ed.jpg) | ![Busca de Serviços](https://user-images.githubusercontent.com/45954874/176949780-a73de3fd-29d9-4ea5-9dc9-7d860a934573.jpg) | 
+| ![Tela Inicial](https://user-images.githubusercontent.com/104728985/184884547-f0e17245-6653-447a-82ff-a675879cceda.png) | ![paginaviagens](https://user-images.githubusercontent.com/104728985/184884798-d719c1a1-c0e0-4bab-8eff-3250790da69b.jpg) | ![candidatarse](https://user-images.githubusercontent.com/104728985/184885023-2e8922f3-57a2-4b7a-9f05-cee8b9da7fc8.jpg) | 
 
-| Detalhes do Serviço  | Carrinho Vazio | Carrinho Cheio | 
+| Login do Admin  | Painel Administrativo | Detalhe da Viagem | 
 |---|---|---|
-| ![Detalhes do Serviço](https://user-images.githubusercontent.com/45954874/176906021-c9bd0e07-6790-428f-92be-4ed262cb1ed2.jpg) | ![Carrinho Vazio](https://user-images.githubusercontent.com/45954874/176949824-c370475f-c4f2-48c8-8451-1d1340aed045.jpg) | ![Carrinho Cheio](https://user-images.githubusercontent.com/45954874/176949872-f65a2951-0865-4e19-94e9-e1530314fd56.jpg) | 
+| ![login](https://user-images.githubusercontent.com/104728985/184885258-a4faca1b-144d-4c0f-a968-fa96d94a221a.jpg) | ![paineladm](https://user-images.githubusercontent.com/104728985/184885479-c7c38caf-b90b-4104-a417-e0f73a9ff2fb.jpg) | ![detalheviagem](https://user-images.githubusercontent.com/104728985/184885822-4ad035ef-c3f6-4c24-9ccd-81bcebc8eb33.jpg) | 
 
 <a id="Licença"></a>
 ## 📝 Licença
