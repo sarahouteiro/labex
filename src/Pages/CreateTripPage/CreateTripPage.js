@@ -101,7 +101,7 @@ function CreateTripPage() {
           </form>
         </AreaForm>
     </div>
-  );
+  )
 }
   
 export default CreateTripPage
