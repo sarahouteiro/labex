@@ -79,7 +79,7 @@ function CreateTripPage() {
 
   return (
     <div>  
-        <Titulo> Inscreva-se para uma viagem </Titulo>
+        <Titulo> Adicionar Viagem </Titulo>
         <AreaForm>
           <form onSubmit={criarViagem}>
             <Input value={nome} onChange={onChangeNome} placeholder="Nome" required/>
