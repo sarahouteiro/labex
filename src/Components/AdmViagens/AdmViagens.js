@@ -1,15 +1,15 @@
-import { Box, Remove } from './styled';
+import { Box, Remove } from './styled'
 import Trash from '../../Assets/trash-icon.png'
-import { useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import axios from 'axios';
-import { getTripsUrl } from '../../Constants';
+import { useNavigate } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import axios from 'axios'
+import { getTripsUrl } from '../../Constants'
 
 function AdmViagens() {
-  const token = localStorage.getItem('token');
-  const [ viagens, setViagens ] = useState([]);
+  const token = localStorage.getItem('token')
+  const [ viagens, setViagens ] = useState([])
 
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   const goToDetailsPage = (id) => {
       navigate(`/detalhes/${id}`)
@@ -22,9 +22,9 @@ function AdmViagens() {
       }
     })
     .then((success) => {
-      console.log('Viagem deletado com sucesso', success.data);
-      alert('Viagem deletada com sucesso!');
-      getTrips();
+      console.log('Viagem deletado com sucesso', success.data)
+      alert('Viagem deletada com sucesso!')
+      getTrips()
     })
     .catch((error) => {
       console.log(error.response.data.message)
@@ -42,7 +42,7 @@ function AdmViagens() {
   }
 
   useEffect(() => {
-    getTrips();
+    getTrips()
   }, [])
 
   return(
@@ -59,4 +59,4 @@ function AdmViagens() {
   );
 }
   
-export default AdmViagens;
+export default AdmViagens

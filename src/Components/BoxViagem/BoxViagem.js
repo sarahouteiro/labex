@@ -1,7 +1,7 @@
 import { Viagem, Lista } from './styled'
-import axios from 'axios';
-import { useEffect, useState } from 'react';
-import { getTripsUrl } from '../../Constants';
+import axios from 'axios'
+import { useEffect, useState } from 'react'
+import { getTripsUrl } from '../../Constants'
 
 function BoxViagem() {
     const [ trips, setTrips ] = useState([])
@@ -38,7 +38,7 @@ function BoxViagem() {
                 {listaViagem}
             </Lista>
         </div>
-    );
+    )
   }
   
-  export default BoxViagem;
+  export default BoxViagem

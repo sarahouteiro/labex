@@ -26,4 +26,4 @@ function ListTripsPage() {
     );
   }
   
-  export default ListTripsPage;
+  export default ListTripsPage

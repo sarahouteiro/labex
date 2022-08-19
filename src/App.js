@@ -1,6 +1,6 @@
-import Router from "./Router/Router";
-import {GlobalStyled, Container, Logo} from './styles';
-import LogoLabex from './Assets/logo-labex.png';
+import Router from "./Router/Router"
+import {GlobalStyled, Container, Logo} from './styles'
+import LogoLabex from './Assets/logo-labex.png'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Router/>
       </Container>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

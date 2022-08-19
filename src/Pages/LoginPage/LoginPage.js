@@ -1,14 +1,14 @@
-import { Titulo, Botoes } from './styled';
-import { Input, ButtonPrimario } from '../../styles';
-import { useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import { loginUrl } from '../../Constants';
-import axios from 'axios';
+import { Titulo, Botoes } from './styled'
+import { Input, ButtonPrimario } from '../../styles'
+import { useNavigate } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { loginUrl } from '../../Constants'
+import axios from 'axios'
 
 function LoginPage() {
-  const token = localStorage.getItem('token');
-  const [ email, setEmail ] = useState('');
-  const [ senha, setSenha ] = useState('');
+  const token = localStorage.getItem('token')
+  const [ email, setEmail ] = useState('')
+  const [ senha, setSenha ] = useState('')
 
   const onChangeEmail = (e) => {
     setEmail(e.target.value)
@@ -18,7 +18,7 @@ function LoginPage() {
     setSenha(e.target.value)
   }
 
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   useEffect(() => {
     if(token !== null) {
@@ -34,8 +34,8 @@ function LoginPage() {
     axios.post(loginUrl, body)
       .then((success) => {
         if(success.data.token) {
-          localStorage.setItem('token', success.data.token);
-          navigate('/admin/home');
+          localStorage.setItem('token', success.data.token)
+          navigate('/admin/home')
         }
       })
       .catch((error) => {
@@ -58,8 +58,8 @@ function LoginPage() {
         <ButtonPrimario onClick={goBack}>Voltar</ButtonPrimario>
       </Botoes>
     </div>
-  );
+  )
 }
   
-export default LoginPage;
+export default LoginPage
   

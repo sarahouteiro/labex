@@ -1,12 +1,12 @@
-import HomePage from '../Pages/HomePage/HomePage';
-import ErrorPage from '../Pages/ErrorPage/ErrorPage';
-import ListTripsPage from '../Pages/ListTripsPage/ListTripsPage';
-import LoginPage from '../Pages/LoginPage/LoginPage';
-import AdminHomePage from '../Pages/AdminHomePage/AdminHomePage';
-import CreateTripPage from '../Pages/CreateTripPage/CreateTripPage';
-import ApplicationFormPage from '../Pages/ApplicationFormPage/ApplicationFormPage';
-import TripDetailsPage from '../Pages/TripDetailsPage/TripDetailsPage';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import HomePage from '../Pages/HomePage/HomePage'
+import ErrorPage from '../Pages/ErrorPage/ErrorPage'
+import ListTripsPage from '../Pages/ListTripsPage/ListTripsPage'
+import LoginPage from '../Pages/LoginPage/LoginPage'
+import AdminHomePage from '../Pages/AdminHomePage/AdminHomePage'
+import CreateTripPage from '../Pages/CreateTripPage/CreateTripPage'
+import ApplicationFormPage from '../Pages/ApplicationFormPage/ApplicationFormPage'
+import TripDetailsPage from '../Pages/TripDetailsPage/TripDetailsPage'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function Router() {
     return (
@@ -22,7 +22,7 @@ function Router() {
                 <Route path='*' element={<ErrorPage/>}/>
             </Routes>
         </BrowserRouter>
-    );
+    )
   }
   
-  export default Router;
+  export default Router
