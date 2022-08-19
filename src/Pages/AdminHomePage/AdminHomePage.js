@@ -1,12 +1,12 @@
 import { Botoes, Titulo } from './styled'
-import { ButtonPrimario } from '../../styles';
-import AmdViagens from '../../Components/AdmViagens/AdmViagens';
-import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
+import { ButtonPrimario } from '../../styles'
+import AmdViagens from '../../Components/AdmViagens/AdmViagens'
+import { useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function AdminHomePage() {
-  const navigate = useNavigate();
-  const token = localStorage.getItem('token');
+  const navigate = useNavigate()
+  const token = localStorage.getItem('token')
 
   const goToCreateTrip = () => {
     navigate('/criar-viagem')
@@ -20,7 +20,7 @@ function AdminHomePage() {
     if(token === null) {
       navigate('/login')
     }
-  },[navigate, token]);
+  },[navigate, token])
 
   return (
     <div>  
@@ -31,7 +31,7 @@ function AdminHomePage() {
         <ButtonPrimario onClick={goBack}>Voltar</ButtonPrimario>
       </Botoes>
     </div>
-  );
+  )
 }
 
-export default AdminHomePage;
+export default AdminHomePage

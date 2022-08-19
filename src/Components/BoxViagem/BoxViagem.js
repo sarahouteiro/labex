@@ -1,7 +1,7 @@
 import { Viagem, Lista } from './styled'
-import axios from 'axios';
-import { useEffect, useState } from 'react';
-import { getTripsUrl } from '../../Constants';
+import axios from 'axios'
+import { useEffect, useState } from 'react'
+import { getTripsUrl } from '../../Constants'
 
 function BoxViagem() {
     const [ trips, setTrips ] = useState([])
@@ -26,7 +26,7 @@ function BoxViagem() {
                 <p><b>Nome:</b> {trip.name} </p>
                 <p><b>Descrição:</b> {trip.description} </p>
                 <p><b>Planeta:</b> {trip.planet} </p>
-                <p><b>Duração:</b> {trip.durationInDays / 12 } </p>
+                <p><b>Duração:</b> {trip.durationInDays} dias</p>
                 <p><b>Data:</b> {trip.date} </p>
             </Viagem>
         )
@@ -38,7 +38,7 @@ function BoxViagem() {
                 {listaViagem}
             </Lista>
         </div>
-    );
+    )
   }
   
-  export default BoxViagem;
+  export default BoxViagem

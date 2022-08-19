@@ -1,9 +1,9 @@
-import { Titulo, Infos, Lista } from './styled';
-import FichaCandidato from '../../Components/FichaCandidato/FichaCandidato';
-import { ButtonPrimario } from '../../styles';
-import { useNavigate, useParams } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { Titulo, Infos, Lista } from './styled'
+import FichaCandidato from '../../Components/FichaCandidato/FichaCandidato'
+import { ButtonPrimario } from '../../styles'
+import { useNavigate, useParams } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 
 function TripDetailsPage() {
 
@@ -12,8 +12,8 @@ function TripDetailsPage() {
     candidates: []
   });
 
-  const navigate = useNavigate();
-  const params = useParams();
+  const navigate = useNavigate()
+  const params = useParams()
 
   const token = localStorage.getItem('token');
 
@@ -25,7 +25,7 @@ function TripDetailsPage() {
     if(token === null) {
       navigate('/login')
     }
-  },[navigate, token]);
+  },[navigate, token])
 
   const getTripDetails = () => {
     axios.get(`https://us-central1-labenu-apis.cloudfunctions.net/labeX/sarah/trip/${params.id}`, {
@@ -43,11 +43,11 @@ function TripDetailsPage() {
   }
 
   useEffect(() => {
-    getTripDetails();
+    getTripDetails()
   }, []);
 
   const atualizarCandidatos = () => {
-    getTripDetails();
+    getTripDetails()
   }
 
   const listaDeAprovados = viagem.approved.map((aprovado) => {
@@ -74,7 +74,7 @@ function TripDetailsPage() {
         </Lista>
         <ButtonPrimario onClick={goBack}>Voltar</ButtonPrimario>
     </div>
-  );
+  )
 }
   
-export default TripDetailsPage;
+export default TripDetailsPage

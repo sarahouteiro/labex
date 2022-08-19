@@ -1,7 +1,7 @@
-import banner from '../../Assets/banner.jpg';
-import { Banner, Botoes } from './styled';
-import { ButtonPrimario } from '../../styles';
-import { useNavigate } from 'react-router-dom';
+import banner from '../../Assets/banner.jpg'
+import { Banner, Botoes } from './styled'
+import { ButtonPrimario } from '../../styles'
+import { useNavigate } from 'react-router-dom'
 
 function HomePage() {
   const navigate = useNavigate()
@@ -22,7 +22,7 @@ function HomePage() {
           <ButtonPrimario onClick={goToLoginPage}>Área Admin</ButtonPrimario>
         </Botoes>
       </div>
-    );
+    )
   }
   
   export default HomePage;

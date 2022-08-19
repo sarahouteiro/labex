@@ -1,17 +1,17 @@
-import { Titulo, Botoes, AreaForm } from './styled';
-import { ButtonPrimario, Select, Input} from '../../styles';
-import { useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { Titulo, Botoes, AreaForm } from './styled'
+import { ButtonPrimario, Select, Input} from '../../styles'
+import { useNavigate } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import axios from 'axios'
 
 function CreateTripPage() {
-  const token = localStorage.getItem('token');
+  const token = localStorage.getItem('token')
 
-  const [ nome, setNome ] = useState('');
-  const [ planeta, setPlaneta ] = useState('');
-  const [ data, setData ] = useState('');
-  const [ descricao, setDescricao ] = useState('');
-  const [ duracaoDias, setDuracaoDias ] = useState('');
+  const [ nome, setNome ] = useState('')
+  const [ planeta, setPlaneta ] = useState('')
+  const [ data, setData ] = useState('')
+  const [ descricao, setDescricao ] = useState('')
+  const [ duracaoDias, setDuracaoDias ] = useState('')
 
   const onChangeNome = (e) => {
     setNome(e.target.value)
@@ -34,7 +34,7 @@ function CreateTripPage() {
   }
 
   const criarViagem = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     const date = new Date(data)
 
@@ -65,7 +65,7 @@ function CreateTripPage() {
     })
   }
 
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   const goBack = () => {
       navigate(-1)
@@ -79,7 +79,7 @@ function CreateTripPage() {
 
   return (
     <div>  
-        <Titulo> Inscreva-se para uma viagem </Titulo>
+        <Titulo> Adicionar Viagem </Titulo>
         <AreaForm>
           <form onSubmit={criarViagem}>
             <Input value={nome} onChange={onChangeNome} placeholder="Nome" required/>
@@ -101,8 +101,8 @@ function CreateTripPage() {
           </form>
         </AreaForm>
     </div>
-  );
+  )
 }
   
-export default CreateTripPage;
+export default CreateTripPage
   

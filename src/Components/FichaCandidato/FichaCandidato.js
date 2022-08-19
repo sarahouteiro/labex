@@ -1,10 +1,10 @@
-import { Ficha, Candidatos } from './styled';
-import { ButtonPrimario } from '../../styles';
-import axios from 'axios';
+import { Ficha, Candidatos } from './styled'
+import { ButtonPrimario } from '../../styles'
+import axios from 'axios'
 
 function FichaCandidato(props) {
-  const token = localStorage.getItem('token');
-  const idViagem = props.viagemId;
+  const token = localStorage.getItem('token')
+  const idViagem = props.viagemId
 
   const decisaoCandidato = (idCandidato, veredito) => {
     const body = {
@@ -17,7 +17,7 @@ function FichaCandidato(props) {
     })
     .then((success) => {
       console.log(success.data, 'Veredito enviado com sucesso')
-      props.vereditoDisparado();
+      props.vereditoDisparado()
     })
     .catch((error) => {
       console.log(error.response.data.message)
@@ -45,4 +45,4 @@ function FichaCandidato(props) {
   );
 }
   
-export default FichaCandidato;
+export default FichaCandidato

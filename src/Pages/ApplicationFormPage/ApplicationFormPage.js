@@ -1,9 +1,9 @@
-import { ButtonPrimario, Select, Input } from "../../styles";
-import { Titulo, AreaForm, Botoes } from './styled';
-import { useNavigate } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import axios from "axios";
-import { getTripsUrl } from '../../Constants';
+import { ButtonPrimario, Select, Input } from "../../styles"
+import { Titulo, AreaForm, Botoes } from './styled'
+import { useNavigate } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import axios from "axios"
+import { getTripsUrl } from '../../Constants'
 
 function ApplicationFormPage() {
   const [ viagem, setViagem ] = useState()
@@ -105,7 +105,7 @@ function ApplicationFormPage() {
       </form>
       </AreaForm>
     </div>
-  );
+  )
 }
   
-export default ApplicationFormPage;
+export default ApplicationFormPage
